@@ -1,0 +1,159 @@
+
+/* Twitch icon css */
+
+.twitchicon {
+    color: white;
+    position: absolute;
+    left: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.twitchicon:hover {
+    color: #9146ff;
+    transform: scale(1.1);
+    animation-name: twitchshadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes twitchshadow {
+    0% {filter: drop-shadow(4px 0 0 white);}
+    25% {filter: drop-shadow(0 4px 0 white);}
+    50% {filter: drop-shadow(-4px 0 0 white);}
+    75% {filter: drop-shadow(0 -4px 0 white);}
+    to {filter: drop-shadow(4px 0 0 white);}
+}
+
+/* ================================================================= */
+/* Tiktok icon css */
+
+.tiktokicon {
+    color: white;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.tiktokicon:hover {
+    color: black;
+    transform: scale(1.1);
+    animation-name: tiktokshadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes tiktokshadow {
+    0% {filter: drop-shadow(4px 0 0 #ff0050);}
+    25% {filter: drop-shadow(0 4px 0 #ff0050);}
+    50% {filter: drop-shadow(-4px 0 0 #00f2ea);}
+    75% {filter: drop-shadow(0 -4px 0 #00f2ea);}
+    to {filter: drop-shadow(4px 0 0 #ff0050);}
+}
+
+/* ================================================================= */
+/* Facebook icon css */
+
+.fbicon {
+    color: white;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.fbicon:hover {
+    color: #1877f2;
+    transform: scale(1.1);
+    animation-name: fbshadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fbshadow {
+    0% {filter: drop-shadow(4px 0 0 white);}
+    25% {filter: drop-shadow(0 4px 0 white);}
+    50% {filter: drop-shadow(-4px 0 0 white);}
+    75% {filter: drop-shadow(0 -4px 0 white);}
+    to {filter: drop-shadow(4px 0 0 white);}
+}
+
+/* ================================================================= */
+/* Twitter icon css */
+
+.twittericon {
+    color: white;
+    position: absolute;
+    right: 180px;
+    top: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.twittericon:hover {
+    color: #1da1f1;
+    transform: scale(1.1);
+    animation-name: twittershadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes twittershadow {
+    0% {filter: drop-shadow(4px 0 0 white);}
+    25% {filter: drop-shadow(0 4px 0 white);}
+    50% {filter: drop-shadow(-4px 0 0 white);}
+    75% {filter: drop-shadow(0 -4px 0 white);}
+    to {filter: drop-shadow(4px 0 0 white);}
+}
+
+/* ================================================================= */
+/* Youtube icon css */
+
+.youtubeicon {
+    color: white;
+    position: absolute;
+    right: 180px;
+    bottom: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.youtubeicon:hover {
+    color: #ff0000;
+    transform: scale(1.1);
+    animation-name: youtubeshadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes youtubeshadow {
+    0% {filter: drop-shadow(4px 0 0 white);}
+    25% {filter: drop-shadow(0 4px 0 white);}
+    50% {filter: drop-shadow(-4px 0 0 white);}
+    75% {filter: drop-shadow(0 -4px 0 white);}
+    to {filter: drop-shadow(4px 0 0 white);}
+}
+
+/* ================================================================= */
+/* Instragram icon css */
+
+.instagramicon {
+    color: white;
+    position: absolute;
+    left: 180px;
+    bottom: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.instagramicon:hover {
+    color: #dd2a7b;
+    transform: scale(1.1);
+    animation-name: instagramshadow;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes instagramshadow {
+    0% {filter: drop-shadow(4px 0 0 white);}
+    25% {filter: drop-shadow(0 4px 0 white);}
+    50% {filter: drop-shadow(-4px 0 0 white);}
+    75% {filter: drop-shadow(0 -4px 0 white);}
+    to {filter: drop-shadow(4px 0 0 white);}
+}

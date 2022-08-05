@@ -1,0 +1,14 @@
+.loading-screen {
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.zazabg {
+    position: absolute;
+    background-size: cover;
+    transform: rotate(-30deg);
+}
+
+.loading-logo {
+    z-index: 2;
+}
